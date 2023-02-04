@@ -30,7 +30,7 @@
             </a>
         </div>
         <div class=" pt-5 hidden md:block">
-            <div class=" h-0.5 bg-secondary md:max-w-[200px] lg:max-w-[440px] w-full vt"></div>
+            <div class=" h-0.5 bg-secondary md:max-w-[200px] lg:max-w-[440px] 2xl:max-w-[670px] w-full vt"></div>
         </div>
     </div>
 </template>

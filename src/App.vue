@@ -1,16 +1,21 @@
 <template>
-  <div class=" w-full">
-    <Header/>
-  </div>
+  <MainLayout>
+    <FirstSection />
+    <SecondSection />
+  </MainLayout>
 </template>
 
 
 <script>
-import Header from './components/Header.vue'
+import MainLayout from './components/layouts/MainLayout.vue'
+import FirstSection from './components/sections/FirstSection.vue'
+import SecondSection from './components/sections/SecondSection.vue'
 export default {
   name: 'App',
   components: {
-    Header
+    MainLayout,
+    FirstSection,
+    SecondSection
   }
   
 }

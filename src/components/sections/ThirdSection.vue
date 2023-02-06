@@ -1,6 +1,6 @@
 <template>
    <div class=" w-full bg-primary py-20">
-    <div class=" h-0.5 bg-secondary max-w-[180px] md:max-w-[300px] lg:max-w-[440px] w-full vt"></div>
+    <div class=" h-0.5 bg-secondary max-w-[180px] md:max-w-[300px] lg:max-w-[440px] 2xl:max-w-[670px] w-full vt "></div>
      <div class=" w-full md:max-w-[758px] lg:max-w-[1150px] m-auto py-5 lg:py-28 px-4">
         <div class="  w-full justify-end md:flex hidden lg:hidden">
              <div class="  flex  flex-col items-end pt-5 space-y-2  pb-10 ">

@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full bg-tertiary">
+    <div class=" w-full bg-white md:bg-tertiary">
         <Header />
         <div class="w-full h-full">
             <slot></slot>

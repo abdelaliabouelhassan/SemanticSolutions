@@ -6,6 +6,8 @@
     <FourthSection />
     <FifthSection />
     <SixthSection />
+    <SeventhSection />
+    <EighthSection />
   </MainLayout>
 </template>
 
@@ -18,6 +20,8 @@ import ThirdSection from './components/sections/ThirdSection.vue'
 import FourthSection from './components/sections/FourthSection.vue'
 import FifthSection from './components/sections/FifthSection.vue'
 import SixthSection from './components/sections/SixthSection.vue'
+import SeventhSection from './components/sections/SeventhSection.vue'
+import EighthSection from './components/sections/EighthSection.vue'
 export default {
   name: 'App',
   components: {
@@ -27,7 +31,9 @@ export default {
     ThirdSection,
     FourthSection,
     FifthSection,
-    SixthSection
+    SixthSection,
+    SeventhSection,
+    EighthSection
   }
   
 }

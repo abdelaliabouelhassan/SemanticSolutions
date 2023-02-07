@@ -31,7 +31,7 @@
                 </div>
             </div>
          </div>
-           <div class=" ">
+        <div class=" ">
             <img src="../../assets/Polygonleft.png" class=" w-full h-full absolute bottom-0 left-0 md:max-h-[300px] xl:max-h-[531px] hidden md:block" alt="">
             <img src="../../assets/Polygonbottom.png" class=" w-full h-full absolute top-0 left-0 max-h-[380px] md:max-h-[300px] xl:max-h-[531px] md:hidden" alt="">
         </div>

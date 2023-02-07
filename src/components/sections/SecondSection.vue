@@ -13,7 +13,7 @@
             </div>
 
             <div class=" w-full grid grid-cols-1 sm:grid-cols-3 gap-10 lg:gap-28 max-w-[200px] sm:max-w-max m-auto">
-                <div class=" w-full card pt-7 pb-12 space-y-2 max-w-[200px] lg:max-w-[299px]">
+                <div class=" w-full card pt-7 pb-7 lg:pb-12 space-y-2 max-w-[200px] lg:max-w-[299px]">
                     <div class=" h-[2px] max-w-[150px] w-full bg-secondary"></div>
                     <div class=" flex flex-col space-y-2 px-5">
                         <span class=" text-[18px] lg:text-[27px] text-tertiary font-bold font-inter">Persönlich</span>
@@ -22,7 +22,7 @@
                         </p>
                     </div>
                 </div>
-                 <div class=" w-full card pt-7 pb-12 space-y-2 max-w-[200px] lg:max-w-[299px]">
+                 <div class=" w-full card pt-7 pb-7 lg:pb-12 space-y-2 max-w-[200px] lg:max-w-[299px]">
                     <div class=" h-[2px] max-w-[150px] w-full bg-secondary"></div>
                     <div class=" flex flex-col space-y-2 px-5">
                         <span class=" text-[18px] lg:text-[27px] text-tertiary font-bold font-inter">Data Driven</span>
@@ -31,7 +31,7 @@
                         </p>
                     </div>
                 </div>
-                 <div class=" w-full card pt-7 pb-12 space-y-2 max-w-[200px] lg:max-w-[299px]">
+                 <div class=" w-full card pt-7 pb-7 lg:pb-12 space-y-2 max-w-[200px] lg:max-w-[299px]">
                     <div class=" h-[2px] max-w-[150px] w-full bg-secondary"></div>
                     <div class=" flex flex-col space-y-2 px-5">
                         <span class=" text-[18px] lg:text-[27px] text-tertiary font-bold font-inter">Social Natives</span>

@@ -4,16 +4,18 @@
         <div class="w-full h-full">
             <slot></slot>
         </div>
+        <Footer />
     </div>
 </template>
 
 
 <script>
 import Header from '../Header.vue'
-
+import Footer from '../Footer.vue'
 export default {
     components: {
-        Header
+        Header,
+        Footer
     },
 }
 </script>

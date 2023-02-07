@@ -1,8 +1,8 @@
 <template>
-    <div class=" w-full py-4">
+    <div class=" w-full py-4 relative">
         <div class=" w-full flex items-center justify-between md:max-w-[758px] lg:max-w-[1150px] m-auto px-4">
             <div class=" flex items-center space-x-14 md:space-x-0">
-                <button class=" md:hidden ">
+                <button class=" md:hidden " @click="toggleMenu">
                     <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line y1="0.5" x2="17" y2="0.5" stroke="#042233"/>
                         <line y1="7.5" x2="17" y2="7.5" stroke="#042233"/>
@@ -32,5 +32,20 @@
         <div class=" pt-5 hidden md:block">
             <div class=" h-0.5 bg-secondary md:max-w-[200px] lg:max-w-[440px] 2xl:max-w-[670px] w-full vt"></div>
         </div>
+        <MenuBar ref="MenuBar" />
     </div>
 </template>
+
+<script>
+import MenuBar from './MenuBar.vue'
+export default {
+    components: {
+        MenuBar
+    },
+    methods:{
+        toggleMenu(){
+            this.$refs.MenuBar.openMenu()
+        }
+    }
+}
+</script>

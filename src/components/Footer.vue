@@ -24,14 +24,17 @@
                    <div class=" max-w-[200px] md:max-w-full">
                      <span class=" text-tertiary font-light font-inter text-[18px] lg:text-[27px]">Sage deinen Vakanzkosten <span class=" text-secondary">Adieu!</span></span>
                    </div>
-                    <div class=" w-full flex flex-col items-start space-y-8">
+                    <div class=" w-full flex flex-col items-start space-y-8" v-if="!sent">
                         <input type="text" class=" w-full    outline-none bg-primary text-tertiary border-b border-tertiary text-[15px] lg:text-[18px] font-inter font-light py-2 " placeholder="Dein Name">
                         <input type="text" class=" w-full    outline-none bg-primary text-tertiary border-b border-tertiary text-[15px] lg:text-[18px] font-inter font-light py-2 " placeholder="Deine E-Mail">
                         <input type="text" class=" w-full    outline-none bg-primary text-tertiary border-b border-tertiary text-[15px] lg:text-[18px] font-inter font-light py-2 " placeholder="Deine Telefonnummer">
                         <textarea name="" id="" cols="30" rows="3" placeholder="Deine Nachricht" class=" w-full    outline-none bg-primary text-tertiary border-b border-tertiary text-[15px] lg:text-[18px] font-inter font-light py-2 "></textarea>
                         <div class=" w-full flex justify-end">
-                            <button class=" text-primary text-xs lg:text-lg font-bold font-inter bg-tertiary py-1 px-4 rounded-[3px] vt hover:bg-opacity-80">Absenden</button>
+                            <button @click="send" class=" text-primary text-xs lg:text-lg font-bold font-inter bg-tertiary py-1 px-4 rounded-[3px] vt hover:bg-opacity-80">Absenden</button>
                         </div>
+                    </div>
+                    <div v-else class=" pt-10 md:pt-20">
+                        <p class=" max-w-[250px] lg:max-w-[400px] text-[18px] lg:text-[27px] font-light font-inter text-tertiary">Danke für dein Interesse 🎉 Wir melden uns! </p>
                     </div>
                 </div>
             </div>
@@ -51,3 +54,17 @@
     </div>
 </template>
 
+<script>
+export default {
+    data(){
+        return {
+            sent:false,
+        }
+    },
+    methods:{
+        send(){
+            this.sent = true;
+        }
+    }
+}
+</script>

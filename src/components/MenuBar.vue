@@ -5,7 +5,7 @@
       role="dialog"
       aria-modal="true"
     >
-      <div class="fixed inset-0 bg-gray-600 bg-opacity-90"></div>
+      <div class="fixed inset-0 bg-primary"></div>
 
       <div class="fixed inset-0 z-40 flex">
         <div class="relative w-full max-w-xs bg-background bg-opacity-95">
@@ -35,10 +35,10 @@
           </div>
 
         <div class=" w-full flex flex-col items-start space-y-10 py-20 px-4">
-            <a href="#"  class=" text-lg text-senary font-markpro font-[450] z-10 cursor-pointer hover:text-opacity-60 transform ease-in-out delay-100 duration-300 ">Wieso wir</a>
-            <a href="#"  class=" text-lg text-senary font-markpro font-[450] z-10 cursor-pointer hover:text-opacity-60 transform ease-in-out delay-100 duration-300 ">So funktioniert’s</a>
-            <a href="#"  class=" text-lg text-senary font-markpro font-[450] z-10 cursor-pointer hover:text-opacity-60 transform ease-in-out delay-100 duration-300 ">Leistungen</a>
-            <a href="#"  class=" text-lg text-senary font-markpro font-[450] z-10 cursor-pointer hover:text-opacity-60 transform ease-in-out delay-100 duration-300 ">Das sind wir</a>
+            <a @click.prevent="goTo('Wiesowir')" href="javascript:void(0)"  class=" text-lg text-senary font-markpro font-[450] z-10 cursor-pointer hover:text-opacity-60 transform ease-in-out delay-100 duration-300 ">Wieso wir</a>
+            <a @click.prevent="goTo('Leistungen')" href="javascript:void(0)" class=" text-lg text-senary font-markpro font-[450] z-10 cursor-pointer hover:text-opacity-60 transform ease-in-out delay-100 duration-300 ">Leistungen</a>
+            <a @click.prevent="goTo('Sofunktioniert')" href="javascript:void(0)"  class=" text-lg text-senary font-markpro font-[450] z-10 cursor-pointer hover:text-opacity-60 transform ease-in-out delay-100 duration-300 ">So funktioniert’s</a>
+            <a @click.prevent="goTo('Dassindwir')" href="javascript:void(0)" class=" text-lg text-senary font-markpro font-[450] z-10 cursor-pointer hover:text-opacity-60 transform ease-in-out delay-100 duration-300 ">Das sind wir</a>
 
         </div>
         </div>
@@ -59,6 +59,12 @@ export default {
     methods:{
         openMenu(){
             this.open = true
+        },
+        goTo(id){
+            this.open = false
+            const element = document.getElementById(id)
+            element.scrollIntoView({behavior: 'smooth'})
+            
         }
     }
 }

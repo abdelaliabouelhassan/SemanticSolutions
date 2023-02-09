@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full md:max-w-[758px] lg:max-w-[1150px] m-auto py-28 px-4">
+    <section class=" w-full md:max-w-[758px] lg:max-w-[1150px] m-auto py-28 px-4" id="Wiesowir">
         <div class=" w-full flex flex-col items-center space-y-20">
             <div class=" flex flex-col items-center space-y-4 w-full">
                 <div class=" flex flex-col items-center lg:-space-y-4 md:-space-y-2 -space-y-1 text-[24px] md:text-[28px] lg:text-[35px] font-bold font-inter">
@@ -12,8 +12,8 @@
                 </p>
             </div>
 
-            <div class=" w-full grid grid-cols-1 sm:grid-cols-3 gap-10 lg:gap-28 max-w-[200px] sm:max-w-max m-auto">
-                <div class=" w-full card pt-7 pb-7 lg:pb-12 space-y-2 max-w-[200px] lg:max-w-[299px]">
+            <div class=" w-full grid grid-cols-1 sm:grid-cols-3 gap-10 lg:gap-28  max-w-[250px]  sm:max-w-max m-auto">
+                <div class=" w-full card pt-7 pb-7 lg:pb-12 space-y-2 max-w-[250px] md:max-w-[200px] lg:max-w-[299px]">
                     <div class=" h-[2px] max-w-[150px] w-full bg-secondary"></div>
                     <div class=" flex flex-col space-y-2 px-5">
                         <span class=" text-[18px] lg:text-[27px] text-tertiary font-bold font-inter">Persönlich</span>
@@ -22,7 +22,7 @@
                         </p>
                     </div>
                 </div>
-                 <div class=" w-full card pt-7 pb-7 lg:pb-12 space-y-2 max-w-[200px] lg:max-w-[299px]">
+                 <div class=" w-full card pt-7 pb-7 lg:pb-12 space-y-2 max-w-[250px] md:max-w-[200px] lg:max-w-[299px]">
                     <div class=" h-[2px] max-w-[150px] w-full bg-secondary"></div>
                     <div class=" flex flex-col space-y-2 px-5">
                         <span class=" text-[18px] lg:text-[27px] text-tertiary font-bold font-inter">Data Driven</span>
@@ -31,7 +31,7 @@
                         </p>
                     </div>
                 </div>
-                 <div class=" w-full card pt-7 pb-7 lg:pb-12 space-y-2 max-w-[200px] lg:max-w-[299px]">
+                 <div class=" w-full card pt-7 pb-7 lg:pb-12 space-y-2max-w-[250px] md:max-w-[200px] lg:max-w-[299px]">
                     <div class=" h-[2px] max-w-[150px] w-full bg-secondary"></div>
                     <div class=" flex flex-col space-y-2 px-5">
                         <span class=" text-[18px] lg:text-[27px] text-tertiary font-bold font-inter">Social Natives</span>
@@ -43,5 +43,5 @@
                
             </div>
         </div>
-    </div>
+    </section>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full relative py-48 overflow-hidden">
+    <section class=" w-full relative py-48 overflow-hidden" id="Dassindwir">
          <div class="md:max-w-[200px] max-w-[180px] lg:max-w-[440px] 2xl:max-w-[670px] z-20  w-full vt h-0.5 bg-secondary absolute bottom-0 right-0  "></div>
          <div class=" w-full md:max-w-[758px] lg:max-w-[1210px] m-auto  px-4 flex md:flex-row flex-col space-y-10 md:space-y-0 items-center xl:items-end space-x-20 relative z-20">
             <div class=" flex items-center md:flex-row flex-col space-y-5 md:space-y-0  md:space-x-5 lg:space-x-14 w-full">
@@ -25,6 +25,6 @@
             <img src="../../assets/Polygonrightbottom.png" class=" w-full h-full absolute top-0 left-0 max-h-[280px] md:max-h-[300px] xl:max-h-[531px] md:hidden" alt="">
         </div>
         
-    </div>
+    </section>
 </template>
 

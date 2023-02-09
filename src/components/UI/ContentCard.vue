@@ -1,5 +1,5 @@
 <template>
-    <div class=" bg-senary w-full p-5 rounded-[10px] cardcol vt " :class="{'space-y-4':open}">
+    <div class=" bg-senary w-full p-[15px] rounded-[10px] cardcol vt " :class="{'space-y-4':open}">
         <div class=" w-full flex justify-between items-center  cursor-pointer group"  @click="open = !open">
             <span class=" text-[15px] lg:text-[18px] font-bold font-inter text-primary">{{title}}</span>
             <div>
@@ -15,8 +15,8 @@
                 </button>
             </div>
         </div>
-        <div  class="w-full" v-if="open" >
-            <p class=" text-[15px] lg:text-[18px] font-light font-inter text-primary duration-75 delay-0 ease-in-out">
+        <div  class="w-full transition-all  duration-500 delay-0 ease-in-out "  :class="{'h-0':!open,' h-max':open}"  >
+            <p class=" text-[15px] lg:text-[18px] font-light font-inter text-primary transition-all  duration-500 delay-250 ease-in-out"  v-show="open">
                 {{text}}
             </p>
         </div>

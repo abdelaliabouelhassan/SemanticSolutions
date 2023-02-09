@@ -17,10 +17,10 @@
                 </div>
             </div>
             <div class=" hidden items-center space-x-10 lg:space-x-16  md:flex">
-                    <a href="#" class=" text-primary md:text-[15px] lg:text-lg font-inter font-semibold hover:text-opacity-50  vt">Wieso wir</a>
-                    <a href="#" class=" text-primary md:text-[15px] lg:text-lg font-inter font-semibold hover:text-opacity-50  vt">So funktioniert’s</a>
-                    <a href="#" class=" text-primary md:text-[15px] lg:text-lg font-inter font-semibold hover:text-opacity-50  vt">Leistungen</a>
-                    <a href="#" class=" text-primary md:text-[15px] lg:text-lg font-inter font-semibold hover:text-opacity-50  vt">Das sind wir</a>
+                    <a @click.prevent="goTo('Wiesowir')" href="javascript:void(0)" class=" text-primary md:text-[15px] lg:text-lg font-inter font-semibold hover:text-opacity-50  vt">Wieso wir</a>
+                    <a @click.prevent="goTo('Leistungen')" href="javascript:void(0)" class=" text-primary md:text-[15px] lg:text-lg font-inter font-semibold hover:text-opacity-50  vt">Leistungen</a>
+                    <a @click.prevent="goTo('Sofunktioniert')" href="javascript:void(0)" class=" text-primary md:text-[15px] lg:text-lg font-inter font-semibold hover:text-opacity-50  vt">So funktioniert’s</a> 
+                    <a @click.prevent="goTo('Dassindwir')" href="javascript:void(0)" class=" text-primary md:text-[15px] lg:text-lg font-inter font-semibold hover:text-opacity-50  vt">Das sind wir</a>
             </div>
             <a href="#" class=" text-primary text-sm lg:text-lg font-inter font-bold border border-primary py-1 px-3 rounded-[3px] flex items-center space-x-2 hover:text-opacity-50 hover:border-opacity-50 vt">
                 <span>Kontakt</span>
@@ -45,6 +45,10 @@ export default {
     methods:{
         toggleMenu(){
             this.$refs.MenuBar.openMenu()
+        },
+        goTo(id){
+            const element = document.getElementById(id)
+            element.scrollIntoView({behavior: 'smooth'})
         }
     }
 }

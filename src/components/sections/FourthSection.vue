@@ -1,5 +1,5 @@
 <template>
-   <div class=" w-full relative ">
+   <section class=" w-full relative ">
         <div class=" w-full md:max-w-[758px] lg:max-w-[1150px] m-auto py-36 px-4 z-20 relative">
             <div class=" w-full flex flex-col items-center space-y-8 md:space-y-16 lg:space-y-28">
             <p class=" text-[24px] text-center md:text-[28px] lg:text-[35px] font-bold font-inter text-primary">
@@ -30,5 +30,5 @@
             <img src="../../assets/Polygonleft.png" class=" w-full h-full absolute bottom-0 left-0 md:max-h-[300px] xl:max-h-[531px] hidden md:block" alt="">
             <img src="../../assets/Polygonbottom.png" class=" w-full h-full absolute top-0 left-0 max-h-[280px] md:max-h-[300px] xl:max-h-[531px] md:hidden" alt="">
         </div>
-   </div>
+   </section>
 </template>

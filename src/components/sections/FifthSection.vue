@@ -1,6 +1,6 @@
 <template>
-    <div class=" w-full relative py-40 overflow-hidden">
-         <div class="md:max-w-[200px] max-w-[180px] lg:max-w-[440px] 2xl:max-w-[670px] z-20  w-full vt h-0.5 bg-secondary absolute bottom-0 right-0  "></div>
+    <section class=" w-full relative py-40 overflow-hidden" id="Leistungen">
+         <div class="md:max-w-[200px] max-w-[180px] lg:max-w-[440px] 2xl:max-w-[670px] z-20  w-full vt h-0.5 bg-secondary absolute bottom-0 left-0 md:left-auto md:right-0  "></div>
          <div class=" w-full md:max-w-[758px] xl:max-w-[1200px] m-auto  px-4 flex md:flex-row flex-col space-y-10 md:space-y-0 items-center xl:items-end space-x-20 relative z-20">
             <div class=" w-full flex flex-col items-start space-y-5 xl:space-y-20 max-w-[351px] xl:max-w-[448px]">
                 <div class=" w-full  flex flex-col ">
@@ -91,5 +91,5 @@
             <img src="../../assets/Polygonright.png" class=" w-full h-full absolute bottom-0 left-0 max-h-[261px] hidden md:block" alt="">
             <img src="../../assets/Polygonrightbottom.png" class=" w-full h-full absolute top-0 left-0 max-h-[280px] md:max-h-[300px] xl:max-h-[531px] md:hidden" alt="">
         </div>
-    </div>
+    </section>
 </template>

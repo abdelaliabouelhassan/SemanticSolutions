@@ -16,7 +16,7 @@
         </div>
         <div class="  w-full">
             <img src="../../assets/firstsection.png" class=" w-full max-w-[1500px] absolute right-0 bottom-0 z-0" alt="">
-            <div class=" absolute right-0 bottom-0 h-[2px] bg-secondary md:max-w-[200px] lg:max-w-[440px] 2xl:max-w-[670px] w-full vt md:block hidden"></div>
+            <div class=" absolute right-0 bottom-0 h-[2px] bg-secondary max-w-[200px] lg:max-w-[440px] 2xl:max-w-[670px] w-full vt "></div>
         </div>
     </div>
 </template>

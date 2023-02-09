@@ -1,5 +1,5 @@
 <template>
-   <div class=" w-full bg-primary py-20">
+   <section class=" w-full bg-primary py-20">
     <div class=" h-0.5 bg-secondary max-w-[180px] md:max-w-[300px] lg:max-w-[440px] 2xl:max-w-[670px] w-full vt "></div>
      <div class=" w-full md:max-w-[758px] lg:max-w-[1150px] m-auto py-5 lg:py-28 px-4">
         <div class="  w-full justify-end md:flex hidden lg:hidden">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <div class=" w-full max-w-[328px] md:max-w-[453px] lg:max-w-[672px]">
+            <div class=" w-full max-w-[328px] md:max-w-[453px] lg:max-w-[672px] h-[330px] lg:h-[451px]">
                     <BarChart v-if="selected == 1" />
                     <LineChart v-if="selected == 2" />
                     <BarChart1 v-if="selected == 3"/>
@@ -61,7 +61,7 @@
                 </div>
         </div>
     </div>
-   </div>
+   </section>
 </template>
 
 

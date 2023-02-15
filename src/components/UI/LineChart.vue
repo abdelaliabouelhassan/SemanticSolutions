@@ -1,5 +1,5 @@
 <template>
-    <Vue3Lottie :animationData="AstronautJSON" class=" w-full h-full" />
+    <Vue3Lottie :loop="false" :animationData="AstronautJSON" class=" w-full h-full" />
 </template>
 
 
